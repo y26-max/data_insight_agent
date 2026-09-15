@@ -16,7 +16,7 @@ from langchain_core.tools import tool
 from datetime import datetime
 from dotenv import load_dotenv
 
-load_dotenv('api_key.env')  # 读取 .env 文件里的内容
+load_dotenv('你的api_key请填这里')
 
 latest_image = None
 
