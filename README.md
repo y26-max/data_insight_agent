@@ -5,7 +5,7 @@ An AI-powered data insights agent built on Coze and implemented with Python + La
 ### Initial Interface：
 <img width="1920" height="1021" alt="image" src="https://github.com/user-attachments/assets/493aae3f-3a7b-49ac-9aa8-b693d61c6c67" />
 
-### User query:"Show me product sales for February 2026" —> the agent converts natural language into SQL, queries the SQLite database, and returns the results.
+### User query: "Show me product sales for February 2026" —> the agent converts natural language into SQL, queries the SQLite database, and returns the results.
 
 <img width="1920" height="1015" alt="image" src="https://github.com/user-attachments/assets/fb65e271-5809-4529-9def-0155d300662f" />
 
@@ -20,11 +20,17 @@ An AI-powered data insights agent built on Coze and implemented with Python + La
 
 ## Core Features:
 ·Natural language to SQL query generation for sales data
+
 ·Autonomous tool-calling via ReAct loop (Thought → Action → Observation)
+
 ·Automated mathematical calculation and attribution analysis
+
 ·Chart generation: bar, pie, scatter, line
+
 ·Multi-turn conversation with context memory
-·Streamlit chat-based web interface with sidebar documentation
+
+·*Streamlit* chat-based web interface with sidebar documentation
+
 
 ## Tech Stack: DeepSeek API, LangChain, SQLite, Streamlit
 
