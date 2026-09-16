@@ -4,7 +4,7 @@ An AI-powered data insights agent built on Coze and implemented with Python + La
 ## Demo
 ### Initial Interface：
 <img width="1920" height="1021" alt="image" src="https://github.com/user-attachments/assets/493aae3f-3a7b-49ac-9aa8-b693d61c6c67" />
-### User query: "Show me product sales for February 2026" —> the agent converts natural language into SQL, queries the SQLite database, and returns the results.
+### User query:"Show me product sales for February 2026" —> the agent converts natural language into SQL, queries the SQLite database, and returns the results.
 <img width="1920" height="1015" alt="image" src="https://github.com/user-attachments/assets/fb65e271-5809-4529-9def-0155d300662f" />
 ### User query: "Give me a pie chart please" —> the agent uses context to link to the previous query and generates a pie chart of product sales for February 2026.
 <img width="1920" height="1015" alt="image" src="https://github.com/user-attachments/assets/8c2e5258-4c26-4edb-8293-3a51936e7712" />
