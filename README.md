@@ -1,4 +1,4 @@
-# Data_Insight_Agent
+# Data_Insight_Agent(Sales Data Analysis AI Agent powered by Coze + DeepSeek API)
 An AI-powered data insights agent built on **Coze** and implemented with **Python + LangChain**, powered by the **DeepSeek** large language model, with **SQLite** as the data store and **Streamlit** as the chat-based frontend.
 
 ## Demo
