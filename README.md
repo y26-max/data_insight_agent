@@ -11,14 +11,14 @@ An AI-powered data insights agent Built on Coze and implemented with Python + La
 
 # Tech Stack: DeepSeek API, LangChain, SQLite, Streamlit
 
-# How to Run:
+## How to Run:
 Before running: copy .env.example to .env and fill in your DeepSeek API key.
-# 1. Create virtual environment
+1. Create virtual environment
 python -m venv .venv
-# 2. Activate virtual environment
+2. Activate virtual environment
 .venv\Scripts\activate        # Windows
 source .venv/bin/activate     # Mac / Linux
-# 3. Install dependencies
+3. Install dependencies
 pip install -r requirements.txt
-# 4. Run the app
+4. Run the app
 streamlit run app.py
