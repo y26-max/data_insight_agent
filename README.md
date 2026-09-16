@@ -1,8 +1,8 @@
-## Data_Insight_Agent
-An AI-powered data insights agent built on Coze and implemented with Python + LangChain, powered by the DeepSeek large language model, with SQLite as the data store and Streamlit as the chat-based frontend.
+# Data_Insight_Agent
+An AI-powered data insights agent built on **Coze** and implemented with **Python + LangChain**, powered by the **DeepSeek** large language model, with **SQLite** as the data store and **Streamlit** as the chat-based frontend.
 
 ## Demo
-### Initial Interface：
+### Initial Interface:
 <img width="1920" height="1021" alt="image" src="https://github.com/user-attachments/assets/493aae3f-3a7b-49ac-9aa8-b693d61c6c67" />
 
 ### User query: "Show me product sales for February 2026" —> the agent converts natural language into SQL, queries the SQLite database, and returns the results.
@@ -18,28 +18,28 @@ An AI-powered data insights agent built on Coze and implemented with Python + La
 <img width="1920" height="1016" alt="image" src="https://github.com/user-attachments/assets/0d87cd62-db81-48c4-a396-75be459f78a8" />
 <img width="1920" height="1015" alt="image" src="https://github.com/user-attachments/assets/d76107dc-7735-4119-a8f3-c05050d38ba8" />
 
-## Core Features:
-·Natural language to SQL query generation for sales data
+## Core Features
+-Natural language to SQL query generation for sales data
 
-·Autonomous tool-calling via ReAct loop (Thought → Action → Observation)
+-Autonomous tool-calling via ReAct loop (Thought → Action → Observation)
 
-·Automated mathematical calculation and attribution analysis
+-Automated mathematical calculation and result summarization
 
-·Chart generation: bar, pie, scatter, line
+-Chart generation: bar, pie, scatter, line
 
-·Multi-turn conversation with context memory
+-Multi-turn conversation with context memory
 
-·*Streamlit* chat-based web interface with sidebar documentation
+-Streamlit chat-based web interface with sidebar documentation
 
 
-## Tech Stack: DeepSeek API, LangChain, SQLite, Streamlit
+## Tech Stack: Coze, DeepSeek API, LangChain, SQLite, Streamlit
 
 ## How to Run:
 ### Before running: copy '.env.example' to '.env' and fill in your DeepSeek API key.
 ```bash
-python -m venv .venv            #create virtual environment
+python -m venv .venv            # Create virtual environment
 .venv\Scripts\activate          # Windows:activate virtual environment
 source .venv/bin/activate       # Mac/Linux:activate virtual environment
-pip install -r requirements.txt #Install dependencies
-streamlit run app.py            #run the app
+pip install -r requirements.txt # Install dependencies
+streamlit run app.py            # run the app
 ```
